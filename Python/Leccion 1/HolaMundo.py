@@ -1,6 +1,6 @@
 # Hola Mundo en Python
 
-miVariable = "Hola Mundo"
+'''miVariable = "Hola Mundo"
 print(miVariable)
 miVariable = 3.5
 print(miVariable)
@@ -55,3 +55,100 @@ numero1 = int(input("Escribe el primer número: "))  # CONVERSION
 numero2 = int(input("Escribe el segundo número: "))
 resultado = numero1 + numero2
 print("El resultado de la suma es: ", resultado)
+'''
+'''
+# OPERADORES ARITMETICOS
+operandoA = 8
+operandoB = 5
+suma = operandoA + operandoB
+# print("Resultado de la suma:", suma)
+print(f"El resultado de la suma es: {suma}") #Interpolación (Método más usado para imprimir)
+
+resta = operandoA - operandoB
+print(f"El resultado de la resta es: {resta}")
+
+producto = operandoA * operandoB
+print(f"El resultado del producto es: {producto}")
+
+division = operandoA / operandoB
+print(f"El resultado de la división es: {division}")
+
+division = operandoA // operandoB
+print(f"El resultado de la division (int) es: {division}")
+
+modulo = operandoA % operandoB
+print(f"El resultado del modulo es: {modulo}")
+
+potencia = operandoA ** operandoB
+print(f"El resultado de la potencia es: {potencia}")
+
+# Calculo de área y perímetro
+
+alto = int(input("Proporciona el alto del rectángulo: "))
+ancho = int(input("Proporciona el ancho del rectángulo: "))
+area = alto * ancho
+perimetro = (alto + ancho) * 2
+print(f"El área del rectángulo es de: {area}", f"y el perimetro es: {perimetro}")
+'''
+'''
+# OPERADORES DE REASIGNACIÓN
+mivariable3 = 10
+print(mivariable3)
+
+mivariable3 = mivariable3 + 1  # Método tradicional
+print(mivariable3)
+
+mivariable3 += 1  # Método más eficiente
+print(mivariable3)
+
+# mivariable3 = mivariable3 - 2
+mivariable3 -=2
+print(mivariable3)
+
+# mivariable3 = mivariable3 *3
+mivariable3 *= 3
+print(mivariable3)
+
+# mivariable3 = mivariable3 / 1
+mivariable3 /= 2
+print(mivariable3)
+
+# OPERADORES DE COMPARACIÓN
+d=4
+b=2
+# Operador de igualdad
+resultado = d == b
+print(resultado)
+# Operador de diferencia
+resultado = d != b
+print(resultado)
+# Operador mayor
+resultado = d > b
+print(resultado)
+# Operador menor
+resultado = d < b
+print(resultado)
+# Operador mayor o igual
+resultado = d >= b
+print(resultado)
+# Operador menor o igual
+resultado = d <= b
+print(resultado)
+'''
+'''
+# Ejercicio Pares o impares
+
+x = int(input("Ingrese un número: "))
+resultado = x % 2
+
+if resultado == 0:
+    print("El número ingresado es par.")
+else:
+    print("El número ingresado es impar")
+'''
+# Ejercicio Mayor de Edad
+
+edad = int(input("¿Cuál es su edad?"))
+if edad >= 18: print("Es mayor de 18.")
+else: print("No es mayor de 18.")
+
