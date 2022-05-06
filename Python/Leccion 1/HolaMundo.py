@@ -145,10 +145,83 @@ if resultado == 0:
     print("El número ingresado es par.")
 else:
     print("El número ingresado es impar")
-'''
+
 # Ejercicio Mayor de Edad
 
 edad = int(input("¿Cuál es su edad?"))
 if edad >= 18: print("Es mayor de 18.")
-else: print("No es mayor de 18.")
+else: print("No es mayor de 18.")'''
+'''
+# OPERADORES LOGICOS
+
+# AND
+A = True
+B = True
+resultado = A and B
+print(resultado)
+
+# OR
+resultado = A or B
+print(resultado)
+
+# NOT
+resultado = not A  # OPERADOR UNARIO !
+print(resultado)
+
+# Ejercicio Operador AND
+x = int(input("Ingrese un número: "))
+if x >=0 and x <=5:
+    print("El número se encuentra dentro del rango solicitado.")
+else:
+    print("El número se encuentra fuera del rango solicitado.")
+
+# Ejercicio Operador OR y NOT
+dato1 = True
+dato2 = True
+
+if not (dato1 or dato2):
+    print("No puede asistir al juego de su hijo.")  # Se invierte la salida con el NOT.
+else:
+    print("Si puede asistir al juego se su hijo.")
+
+# Ejercicio Operador AND y OR
+edad = int(input("Ingrese su edad:"))
+
+#if (edad >= 20 and edad < 30) or (edad >=30 and edad < 40):
+#    if edad >= 20 and edad < 30:
+#        print("Está dentro del rango de los veinte.")
+#    elif edad >= 30 and edad < 40:
+#        print("Está dentro del rango de los treinta.")
+#else:
+#    print("No está dentro del rango.")
+
+# Sintaxis simplificada del operador AND
+if (20 <= edad  < 30) or (30 <= edad  < 40):
+    print("Está dentro del rango.")
+else:
+    print("No está dentro del rango.")
+
+# Ejercicio comparación de mayor
+numero1 = int(input("Ingrese el primer número: "))
+numero2 = int(input("Ingrese el segundo número: "))
+
+if (numero1 > numero2):
+    print(f"El número {numero1} es el mayor.")
+else:
+    print(f"El número {numero2} es el mayor.")
+
+# Ejercicio Tienda de libros
+print("Ingrese los siguientes datos del libro: ")
+nombre = input("Nombre del libro: ")
+ID = input("ID del libro: ")
+precio = input("Precio del libro: ")
+envio = bool(input("¿El envío es gratuito? True/False"))
+
+print(f"Nombre del libro: {nombre}")
+print(f"ID del libro: {ID}")
+print(f"Precio del libro: {precio}")
+if envio:
+    print(f"Envío: gratuito.")
+else:
+    print(f"Envío: pago.")'''
 
