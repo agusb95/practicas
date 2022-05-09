@@ -43,8 +43,8 @@ public class HolaMundo {
         System.out.println("Comillas simples: \'" + nombre + "\'");
         System.out.println("Comillas dobles: \"" + nombre + "\"");
         */
+       
         //Clase Scanner
-        
         /*
         Scanner input = new Scanner(System.in);
         System.out.println("Ingrese su nombre: ");
@@ -61,7 +61,7 @@ public class HolaMundo {
         var autor = input.nextLine();
         System.out.println("El libro: " + libro + " fue escrito por: " + autor);
         */
-        
+        /*
         byte numEnteroByte = 127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("Valor mínimo del Byte:" + Byte.MIN_VALUE);
@@ -91,5 +91,40 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("Valor mínimo del Double:" + Double.MIN_VALUE);
         System.out.println("Valor máximo del Double:" + Double.MAX_VALUE);
+        */
+        /*
+        //Inferencia de tipos VAR y tipos primitivos
+        var numEntero = 20; //Las literales sin punto  decimal automáticamente son de tipo INT
+        System.out.println("numEntero = " + numEntero);
+        var numFloat = 10.0F;  //Automáticamente se convierte en tipo Double con el punto decimal (F Para cambiarlo)
+        System.out.println("numFloat = " + numFloat);
+        var numdouble = 10.0; 
+        System.out.println("numdouble = " + numdouble);
+        */
+        /*
+        //Tipos primitivos CHAR
+  
+        char miVariableChar = 'a';
+        System.out.println("miVariableChar = " + miVariableChar);
+        
+        char varCaracter = '\u0024'; //Indicamos a Java la asignación con el código UNICODE
+        System.out.println("varCaracter = " + varCaracter);
+        char varCaracterDecimal = 36; //Valor decimal del codigo UNICODE
+        System.out.println("varCaracterDecimal = " + varCaracterDecimal);
+        char varCaracterSimbolo = '$';
+        System.out.println("varCaracterSimbolo = " + varCaracterSimbolo);
+        
+        char varCaracter1 = '\u0024'; //Indicamos a Java la asignación con el código UNICODE
+        System.out.println("varCaracter1 = " + varCaracter1);
+        char varCaracterDecimal1 = (char)36; //Valor entero y le asigna un tipo INT ((char) para conversión)
+        System.out.println("varCaracterDecimal1 = " + varCaracterDecimal1); 
+        char varCaracterSimbolo1 = '$';
+        System.out.println("varCaracterSimbolo1 = " + varCaracterSimbolo1);
+        
+        int varEnteroChar = '$';
+        System.out.println("varEnteroChar = " + varEnteroChar); //INFERENCIA DE TIPO
+        int caracterChar = 'b';
+        System.out.println("caracterChar = " + caracterChar);
+        */
     }
 }
